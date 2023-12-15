@@ -3,7 +3,7 @@ Vietnamese sources for [Paperback](https://paperback.moe/)
 
 ## Link extension
 ```
-https://huynlx.github.io/Extensions-Viet/
+https://hiephoang2190.github.io/extension-truyen/
 ```
 ## Sources
 
