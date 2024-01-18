@@ -388,10 +388,10 @@ exports.isLastPage = ($) => {
     return true;
 };
 exports.NetTruyenInfo = {
-    version: "3.0.6",
+    version: "3.0.7",
     name: "NetTruyen",
     icon: "icon.png",
-    author: "Huynhzip3",
+    author: "HiepHoang",
     authorWebsite: "https://github.com/HiepHoang2190/extension-truyen",
     description: "Extension that pulls manga from NetTruyen.",
     websiteBaseURL: DOMAIN,
