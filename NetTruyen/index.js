@@ -377,7 +377,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.NetTruyen = exports.NetTruyenInfo = exports.isLastPage = void 0;
 const paperback_extensions_common_1 = require("paperback-extensions-common");
 const NetTruyenParser_1 = require("./NetTruyenParser");
-const DOMAIN = "https://www.nettruyentr.com/";
+const DOMAIN = "https://www.nettruyenclub.com/";
 exports.isLastPage = ($) => {
     const current = $("ul.pagination > li.active > a").text();
     let total = $("ul.pagination > li.PagerSSCCells:last-child").text();
@@ -388,11 +388,11 @@ exports.isLastPage = ($) => {
     return true;
 };
 exports.NetTruyenInfo = {
-    version: "3.0.4",
+    version: "3.0.5",
     name: "NetTruyen",
     icon: "icon.png",
     author: "Huynhzip3",
-    authorWebsite: "https://github.com/huynh12345678",
+    authorWebsite: "https://github.com/HiepHoang2190/extension-truyen",
     description: "Extension that pulls manga from NetTruyen.",
     websiteBaseURL: DOMAIN,
     contentRating: paperback_extensions_common_1.ContentRating.MATURE,
